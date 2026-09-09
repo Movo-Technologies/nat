@@ -1,0 +1,197 @@
+{
+  "hero": {
+    "Eyebrow": "AI CUSTOMER ENGAGEMENT FOR WEBSITES",
+    "H1": "Your website knows the answer. Now it can say it.",
+    "Body": "Nat learns your website and business knowledge, talks with your visitors, takes their messages, and gets the right conversations to the right people.",
+    "Primary CTA": "Join Early Access",
+    "Secondary CTA": "See Nat in action",
+    "Support line": "Private beta. Built first for teams that want their website to do more than sit there."
+  },
+  "problem": {
+    "Eyebrow": "THE WEBSITE PROBLEM",
+    "H2": "Websites make visitors do too much work.",
+    "Body 1": "Find the right page. Read the right paragraph. Hunt for Contact. Decide whether to email Sales or Support. Repeat everything again when a human finally replies.",
+    "Body 2": "Nat turns that maze into a conversation.",
+    "Closing line": "Ask what you need. Nat handles the first mile."
+  },
+  "capabilities": [
+    [
+      "01",
+      "Nat learns the business.",
+      "Connect a website and Nat builds approved knowledge from the pages, products, services and information you want visitors to use."
+    ],
+    [
+      "02",
+      "Nat answers in context.",
+      "A visitor can ask about the page they are already viewing. Nat should understand “this,” “it,” and “the plan” without making them repeat themselves."
+    ],
+    [
+      "03",
+      "Nat takes the message.",
+      "When a visitor needs a human, they can explain the issue to Nat right there instead of hunting for a contact form or email address."
+    ],
+    [
+      "04",
+      "Nat routes it properly.",
+      "Sales, support, bookings, billing, partnerships or a custom destination. The visitor should not need to understand your org chart."
+    ],
+    [
+      "05",
+      "Nat carries the context.",
+      "The business receives the conversation, useful details and a structured summary so the customer does not have to start again."
+    ],
+    [
+      "06",
+      "Nat shows what your site is missing.",
+      "Repeated unanswered questions become knowledge gaps you can fix in your website or teach Nat directly."
+    ]
+  ],
+  "steps": [
+    ["01", "Give Nat your website.", "Connect the domain Nat should learn."],
+    [
+      "02",
+      "Nat learns what matters.",
+      "Nat discovers approved public pages and combines them with business knowledge you choose to provide."
+    ],
+    [
+      "03",
+      "Install one integration.",
+      "Add the Nat embed to your site or use the API when you want a custom experience."
+    ],
+    [
+      "04",
+      "Your website starts talking.",
+      "Visitors can ask, explore, leave a request, and move toward the right outcome without navigating your internal process."
+    ]
+  ],
+  "routing": {
+    "Eyebrow": "NAT AS YOUR FRONT DESK",
+    "H2": "The visitor should not need to know who handles what.",
+    "Body": "Someone wants a quote. Someone has a billing problem. Someone wants a partnership. Nat can take the message, understand the intent, collect what matters and send the conversation where your business has configured it to go.",
+    "Microcopy": "Email first. Webhooks too. More destinations later.",
+    "Closing line": "One front door. The right destination behind it."
+  },
+  "context": {
+    "Eyebrow": "CONTEXT MATTERS",
+    "H2": "Nat knows what page they are on.",
+    "Body": "If a visitor is already looking at a product, service or pricing page, Nat can receive safe page context so the conversation starts from where the visitor already is.",
+    "Example visitor": "“Does this include support after launch?”",
+    "Example Nat": "“Yes. The service page says post-launch support is included for 30 days. I can also take a message for the team if you need a longer support arrangement.”"
+  },
+  "future": {
+    "Badge": "PLANNED PRO CAPABILITY",
+    "H2": "Soon, “tell us about your project” can actually mean talk.",
+    "Body": "Nat Brief is designed to take a preliminary client brief through conversation. With voice, a prospect can explain the project naturally, Nat can ask follow-up questions, structure what it heard, and confirm the brief before your first meeting.",
+    "Closing": "Your first human call should begin with context, not “so, what are you looking to build?”"
+  },
+  "developer": {
+    "Eyebrow": "EMBED WHEN YOU WANT SPEED. API WHEN YOU WANT CONTROL.",
+    "H2": "Nat is a platform before it is a bubble.",
+    "Body": "Use the default website widget for fast deployment. Use Nat’s API and SDK foundation when you want to build the experience into your own product surface.",
+    "Microcopy": "The public site key belongs in the browser. Secret credentials do not."
+  },
+  "waitlist": {
+    "Eyebrow": "PRIVATE BETA",
+    "H2": "Put Nat on a real website before everyone else.",
+    "Body": "We’re opening Nat to a small group of businesses willing to test it on real websites, share what works, and show us where it breaks.",
+    "Primary button": "Join Early Access",
+    "Trust line": "No spam. We’ll use your application to evaluate beta fit and contact you about Nat early access.",
+    "Qualifier line": "Best fit right now: active business website + real customer enquiries + willingness to give product feedback."
+  },
+  "demo": [
+    [
+      "1",
+      "Visitor",
+      "“Do you build mobile apps?”",
+      "Simple business question."
+    ],
+    [
+      "2",
+      "Nat",
+      "“Yes. Movo Labs builds web and mobile software, including custom applications. Are you looking to build something?”",
+      "Grounded answer + natural next step."
+    ],
+    ["3", "Visitor", "“Yeah. A fintech app for my company.”", "Buying intent."],
+    [
+      "4",
+      "Nat",
+      "“I can pass that to the right team. Want me to take a few details here?”",
+      "Nat as front desk."
+    ],
+    ["5", "Visitor", "“Sure.”", "Consent."],
+    [
+      "6",
+      "Nat",
+      "“What’s the best email for the team to reach you?”",
+      "Minimum contact capture."
+    ],
+    [
+      "7",
+      "UI",
+      "Route card appears: “Sales → Movo Labs • context attached”",
+      "Shows back-office outcome."
+    ],
+    [
+      "8",
+      "Nat",
+      "“Done. I’ve packaged the conversation for the Movo Labs team.”",
+      "Completion."
+    ]
+  ],
+  "faq": [
+    [
+      "Is Nat live yet?",
+      "Nat is being prepared for private beta. This site is collecting early-access applicants before broad public availability."
+    ],
+    [
+      "What does Nat learn from?",
+      "Nat is designed to learn from approved public website content plus business knowledge you intentionally provide."
+    ],
+    [
+      "Does Nat replace my team?",
+      "No. Nat handles the first mile: common questions, visitor guidance, enquiry capture and routing. Humans remain the escalation point for judgment, sensitive issues and commitments."
+    ],
+    [
+      "Will Nat make up answers?",
+      "The product is being designed to prefer grounded answers and honest escalation over unsupported business-specific claims. No AI system should be presented as infallible."
+    ],
+    [
+      "Can Nat send messages to my team?",
+      "That is part of the Core V1 direction. The initial routing model is designed around configured email destinations and webhooks."
+    ],
+    [
+      "Can visitors talk to Nat by voice?",
+      "Voice and conversational briefing are planned premium capabilities, not part of the initial Core V1 beta scope."
+    ],
+    [
+      "Can developers use an API?",
+      "Nat is being designed API-first. The default widget is one integration surface, not the entire product."
+    ],
+    [
+      "What happens after I join early access?",
+      "We’ll review your use case and website. Selected beta partners will be contacted with onboarding instructions and expectations for testing and feedback."
+    ]
+  ],
+  "audiences": [
+    [
+      "Service businesses",
+      "Turn “I need a quote” into a useful, routed enquiry before anyone from your team replies."
+    ],
+    [
+      "SaaS products",
+      "Answer product questions from approved knowledge and carry unsupported issues toward support."
+    ],
+    [
+      "E-commerce",
+      "Help shoppers understand what they are already viewing and take post-purchase messages without a contact-page hunt."
+    ],
+    [
+      "Lean teams",
+      "Give every visitor a useful first response even when nobody is sitting in live chat."
+    ],
+    [
+      "Developers",
+      "Deploy the default widget or build a custom interface on top of the Nat integration layer."
+    ]
+  ]
+}
