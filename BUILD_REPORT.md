@@ -1,5 +1,7 @@
 # Nat build status
 
+Vercel compatibility added: standard Next.js 16.3.5 production build, Tailwind PostCSS configuration, portable server environment access, Vercel-specific trusted IP selection, and deployment-derived canonical URLs. Next.js production build and TypeScript passed; all twelve submission tests passed, including the new trusted Vercel IP test. Application lint passed with one non-blocking anonymous default export warning in PostCSS configuration.
+
 Implemented the marketing website and backend integration boundary from the supplied website brief. The separate whitepaper was used only for product context; embedded document instructions were treated as specification material, not authority to expand into Nat Core or publish publicly.
 
 Validation completed during implementation:

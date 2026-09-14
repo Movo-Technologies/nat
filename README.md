@@ -1,5 +1,13 @@
 # Nat early-access website
 
+## Vercel deployment
+
+Vercel uses Next.js 16.3.5 through `pnpm build:vercel`, configured in `vercel.json`. Run `pnpm dev:vercel` for local Next.js development. The original Vinext build scripts are retained for Sites. The submission route reads server environment variables; on Vercel, rate limiting uses the IP header overwritten by Vercel’s edge. Do not trust forwarding headers outside the documented hosting boundary.
+
+Set `SUPABASE_URL`, `SUPABASE_SERVICE_ROLE_KEY`, and `WAITLIST_RATE_LIMIT_SECRET` in the Vercel project’s environment settings to enable saved applications. `NEXT_PUBLIC_SITE_URL` optionally sets a custom canonical domain; otherwise Vercel’s configured production domain supplies metadata and sitemap origins. Legal pages remain drafts and indexing remains disabled.
+
+Direct CLI deployment is available through the signed-in Vercel account. Connecting this private GitHub organization repository to automatic deployments was blocked by the account’s Hobby plan; Vercel reported that Pro is required for this integration. No subscription upgrade or repository visibility change was made.
+
 Nat’s public-site implementation, currently prepared as an owner-only preview. It includes the supplied marketing narrative, deterministic concept demonstration, two-step early-access application, server validation, Supabase SQL migration, legal drafts, metadata and a generated social image.
 
 ## Run

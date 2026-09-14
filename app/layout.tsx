@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { Geist, Geist_Mono } from 'next/font/google';
 import './globals.css';
 import { AnalyticsEvents } from '@/components/analytics-events';
+import { siteUrl } from '@/lib/site-url';
 
 const geistSans = Geist({
   variable: '--font-geist-sans',
@@ -14,7 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://nat-early-access.temiadebayo1.chatgpt.site'),
+  metadataBase: new URL(siteUrl),
   alternates: { canonical: '/' },
   robots: { index: false, follow: false },
   icons: { icon: '/favicon.svg' },

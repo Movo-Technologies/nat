@@ -22,7 +22,7 @@ for (const [source, target] of [
 }
 const result = spawnSync(
   process.execPath,
-  ['--test', 'tests/submission.test.mjs'],
+  ['--test', 'tests/submission.test.mjs', 'tests/vercel-ip.test.mjs'],
   { stdio: 'inherit' },
 );
 process.exitCode = result.status ?? 1;

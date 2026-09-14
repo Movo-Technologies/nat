@@ -3,6 +3,7 @@ export type SubmissionEnv = {
   SUPABASE_URL?: string;
   SUPABASE_SERVICE_ROLE_KEY?: string;
   WAITLIST_RATE_LIMIT_SECRET?: string;
+  VERCEL?: string;
 };
 type Fetcher = typeof fetch;
 function response(status: number, body: object) {
@@ -113,9 +114,11 @@ export async function submitApplication(
       apikey: env.SUPABASE_SERVICE_ROLE_KEY,
       Authorization: `Bearer ${env.SUPABASE_SERVICE_ROLE_KEY}`,
     };
-    // Cloudflare overwrites this header at its trusted edge. Never use client-supplied X-Forwarded-For.
+    // Only Vercel deployments trust the forwarding header overwritten by Vercel's edge.
     const ipHash = await hashIp(
-      request.headers.get('cf-connecting-ip') || 'unknown-connection',
+      (env.VERCEL === '1'
+        ? request.headers.get('x-forwarded-for')?.split(',')[0]?.trim()
+        : request.headers.get('cf-connecting-ip')) || 'unknown-connection',
       env.WAITLIST_RATE_LIMIT_SECRET,
     );
     const rate = await fetcher(
